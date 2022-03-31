@@ -61,9 +61,9 @@ public class AddExprTest {
        System.out.println(myAddVsitor.visit(tree));
 
         //listener模式
-        /*ParseTreeWalker walker = new ParseTreeWalker();
+        ParseTreeWalker walker = new ParseTreeWalker();
         AddExprBaseListener addExprListener=new AddExprBaseListener();
-        walker.walk(addExprListener,tree);*/
+        walker.walk(addExprListener,tree);
     }
 
     public static void main(String[] args) throws Exception{
